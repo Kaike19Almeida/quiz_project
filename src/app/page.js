@@ -105,7 +105,7 @@ export default function Quiz() {
           )}
           <div className="navegacao">
             <button onClick={voltarPergunta}>Voltar</button>
-            <button onClick={proximaPergunta}>Próximo</button>
+            <button onClick={proximaPergunta}>Pular</button>
           </div>
         </div>
       )}
