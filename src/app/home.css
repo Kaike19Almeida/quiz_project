@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #000, #1a1a1a);
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, p {
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.quiz-container {
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.reiniciar, .navegacao button {
+    background: #ff4d4d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.reiniciar:hover, .navegacao button:hover {
+    background: #ff6666;
+}
+
+.opcoes button {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.opcoes button:hover {
+    background: #555;
+}
+
+.opcoes button.correto {
+    background: #4caf50;
+}
+
+.opcoes button.errado {
+    background: #ff4d4d;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.navegacao button {
+    background: rgba(0, 123, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 123, 255, 0.5);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+}
+
+.navegacao button:hover {
+    background: rgba(0, 123, 255, 0.4);
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4);
+}
